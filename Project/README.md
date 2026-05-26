@@ -84,9 +84,7 @@ JavaScript Functionalities
 * Bootstrap Modal Interaction
 * Success Alerts
 
- Author: 
-
-Keanu Sean G. Gabuya
+ Author: Keanu Sean G. Gabuya
 - Email: [keanu.gabuya7@gmail.com]
 - Phone: (+63) 948-000-0067
 - Location: Pasay City, Metro Manila
