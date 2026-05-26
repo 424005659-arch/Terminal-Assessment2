@@ -1,0 +1,71 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+  
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.hero {
+    height: 100vh;
+    min-height: 400px;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://static01.nyt.com/athletic/uploads/wp/2025/06/10070833/Single-court-Side-scaled-e1750275888172.jpg?width=1200&height=900&fit=cover');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-section {
+  padding: 60px 0;
+}
+
+.card {
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card ul {
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  border-color: #ffc107; 
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container.page-section {
+  flex: 1 0 auto;
+}
+
+/* Footer styling */
+footer {
+  flex-shrink: 0;
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
