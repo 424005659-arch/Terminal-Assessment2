@@ -23,23 +23,19 @@ Technologies Used
 Project Structure
 
 nextplay-hoops/
-│
-├── index.html
-│
-├── css/
-│   └── custom.css
-│
-├── js/
-│   └── custom.js
-│
-└── img/
-    ├── layup.jpg
-    ├── dribble.webp
-    ├── shooting.jpg
-    ├── conditioning.jpg
-    ├── steve-kerr.webp
-    ├── tim-cone.jpg
-    └── mitch-johnson.webp
+index.html
+css/
+│ custom.css
+js/
+│ custom.js
+│img/
+    - layup.jpg
+    - dribble.webp
+    - shooting.jpg
+    - conditioning.jpg
+    - steve-kerr.webp
+    - tim-cone.jpg
+    - mitch-johnson.webp
 
 Main Sections
 
